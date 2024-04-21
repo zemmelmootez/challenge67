@@ -1,0 +1,41 @@
+.animal-shelter {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.add-animal {
+  margin-bottom: 20px;
+}
+
+.add-animal input,
+.add-animal button {
+  margin-right: 10px;
+}
+
+.animal-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.animal-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  background-color: rgb(255, 203, 140);
+}
+
+.animal-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.animal-info {
+  margin-top: 10px;
+}
+
+.animal-info p {
+  margin: 5px 0;
+}
